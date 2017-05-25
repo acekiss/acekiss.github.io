@@ -3,14 +3,14 @@
 <body style='margin : 0px; overflow: hidden;'>
 	<a-scene embedded artoolkit='sourceType: webcam;'>
   <a-assets>
-  <!-- Un árbol -->
+  <!-- fantasma -->
      
-    <a-asset-item id="arbol-obj" src="https://raw.githubusercontent.com/franciscoestrada/franciscoestrada.github.io/master/arbol.obj"></a-asset-item>
-    <a-asset-item id="arbol-mtl" src="https://raw.githubusercontent.com/franciscoestrada/franciscoestrada.github.io/master/arbol.mtl"></a-asset-item>
+    <a-asset-item id="azul-obj" src="https://github.com/acekiss/acekiss.github.io/blob/master/modelos3d/azul.obj"></a-asset-item>
+    <a-asset-item id="azul-mtl" src="https://github.com/acekiss/acekiss.github.io/blob/master/modelos3d/azul.mtl"></a-asset-item>
 
   <!-- Una caperuza  -->
-      <a-asset-item id="caperuza-obj" src="https://raw.githubusercontent.com/franciscoestrada/franciscoestrada.github.io/master/caperuza-ch.obj"></a-asset-item>
-    <a-asset-item id="caperuza-mtl" src="https://raw.githubusercontent.com/franciscoestrada/franciscoestrada.github.io/master/caperuza-ch.mtl"></a-asset-item> 
+      <a-asset-item id="pacman-obj" src="https://github.com/acekiss/acekiss.github.io/blob/master/modelos3d/pacman.obj"></a-asset-item>
+    <a-asset-item id="pacman-mtl" src="https://github.com/acekiss/acekiss.github.io/blob/master/modelos3d/pacman.mtl"></a-asset-item> 
 
 
      
@@ -20,11 +20,11 @@
 -->
  </a-assets>
 
-  <a-text value="Hola, A-Frame" color="#BBB"
+  <a-text value="Hola" color="#BBB"
           position="-0.5 0.5 1" scale="1 1 1"></a-text>
           
 <!-- Agregar un modelo 3d en formato .obj   -->  
-   <a-entity obj-model="obj: #caperuza-obj; mtl: #caperuza-mtl"  scale=".08 .08 .08" position="-0.5 0 -0.5"></a-entity>       
+   <a-entity obj-model="obj: #azul-obj; mtl: #azul-mtl"  scale=".08 .08 .08" position="-0.5 0 -0.5"></a-entity>       
  
       
  <!-- Modelo de caperuza en formato ply-
